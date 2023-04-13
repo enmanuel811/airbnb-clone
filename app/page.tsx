@@ -4,7 +4,7 @@ import ClientOnly from "./components/clientOnly";
 import Container from "./components/container";
 import EmptyState from "./components/emptyState";
 import ListingCard from "./components/listings/listingCard";
-import { SafeListing } from "./types";
+
 
 interface HomeProps{
   searchParams:IListingsParams;
