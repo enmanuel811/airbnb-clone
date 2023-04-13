@@ -35,7 +35,7 @@ const Home = async ({searchParams}: HomeProps)=> {
         2xl:grid-cols-6
         gap-8
       ">
-          <div>
+         
             {listings.map((listing) => {
               return(
                 <ListingCard
@@ -45,7 +45,6 @@ const Home = async ({searchParams}: HomeProps)=> {
                 />
               )
             })}
-          </div>
       </div>
     </Container>
    </ClientOnly>
